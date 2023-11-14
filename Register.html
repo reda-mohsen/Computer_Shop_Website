@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>Register new account</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+   
+    			<!--Header-->
+			<header>
+				<div class="header">
+					<div class="col1">
+						<h1 id="headerid"> Computer Souq</h1>
+					</div>
+					<div class="col2">
+						<p class="reg">
+							<a href="Register.html" target="_blank" title="Create account" class="reg"> Register </a> | 
+							<a href="Login.html" target="_blank" title="Sign in" class="reg"> Login </a>
+						</p>
+					</div>
+				
+
+			</header>
+
+			<!--navbar-->
+			<nav id="nav">
+				<div class="home">
+					<a href="index.html" > Home </a>
+				</div>
+				<div class="catalog">
+					<a href="catalogue.html" target="_blank" title="Catalog"  > Catalog </a>
+				</div>
+				<div class="hiw">
+					<a href="howitworks.html" target="_blank" title="How It Works"> How It Works </a>
+				</div>
+				<div class="abtus">
+					<a href="about us.html" target="_blank" title="About Us"> About Us </a>
+				</div>
+				<div class="cart">
+					<a href="cart.html" target="_blank" title="My Cart" id="cartid"> My Cart </a>
+				</div>
+			</nav>
+    <h2>
+        <font size="5" color="navy" face="arial">Create new account</font>
+    </h2>
+    <form action="save.php" method="get">
+        Fullname* <br>
+        <input type="text" placeholder="Write your name" name="fullnamebox" id="name" class="fullname">
+        <br><br>
+        Address* <br>
+        <input type="text" placeholder="Write your address" name="addressBox" id="add" class="add">
+        <br><br>
+        Email* <br>
+        <input type="text" placeholder="Write your email" name = "mailBox">
+        <br><br>
+        Phone number* <br>
+        <input type="text" placeholder="Write your phone number"name = "phoneBox">
+        <br><br>
+        Password* <br>
+        <input type="password" name = 'passwordBox'>
+        <br><br>
+        Confirm Password* <br>
+        <input type="password" name = 'passwordBox'>
+        <br><br>
+        Gender* <br>
+        <input type="radio" name="genderBox" value="m" checked> Male
+        <input type="radio" name = "genderBox" value="f"> Female
+        <br><br>
+        Country* <br>
+        <select name="countryBox">
+            <option value="eg" selected>Egypt</option>
+            <option value="gr">Germany</option>
+            <option value="fr">France</option>
+            <option value="su">Sudan</option>
+        </select>
+        <br><br>
+        Favorites* <br>
+        <input type="checkbox" name="SwimmingBox" Value = "swim" checked> Familly cars <br>
+        <input type="checkbox" name="ReadingBox" value ="read" > Sport cars <br>
+
+        <br><br>
+        Your picture
+        <input type="file" name="pictureBox">
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear form">
+        
+    </form>
+   			<!--Footer-->
+               <footer class="footer">
+				<p id="footy" >
+				All Rights Reserved, Copyright &copy; 2021
+				</p>
+			</footer>
+</body>
+</html>
