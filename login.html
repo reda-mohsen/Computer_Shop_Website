@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body topmargin="0" leftmargin="50px">
+
+		
+    <!--Header-->
+    <header>
+        <div class="header">
+            <div class="col1">
+                <h1 id="headerid"> Computer Souq</h1>
+            </div>
+            <div class="col2">
+                <p class="reg">
+                    <a href="Register.html" target="_blank" title="Create account" class="reg"> Register </a> | 
+                    <a href="Login.html" target="_blank" title="Sign in" class="reg"> Login </a>
+                </p>
+            </div>
+        </div>
+        
+
+    </header>
+    			<!--navbar-->
+			<nav id="nav">
+				<div class="home">
+					<a href="index.html" > Home </a>
+				</div>
+				<div class="catalog">
+					<a href="catalogue.html" target="_blank" title="Catalog"  > Catalog </a>
+				</div>
+				<div class="hiw">
+					<a href="howitworks.html" target="_blank" title="How It Works"> How It Works </a>
+				</div>
+				<div class="abtus">
+					<a href="about us.html" target="_blank" title="About Us"> About Us </a>
+				</div>
+				<div class="cart">
+					<a href="cart.html" target="_blank" title="My Cart" id="cartid"> My Cart </a>
+				</div>
+			</nav>
+
+            <div id="formlogin">
+
+                <form action="" >
+                    <label>Username</label>
+                    <input type="text" class="login" name="username">
+                    <br><br>
+                    <label>Password</label>
+                    <input type="password" class="login" name="password">
+                    <br><br>
+                    <button onclick="isEmpty()" type="button" id="buttonjava">Signin</button>
+                </form>
+                <script>
+                    const isEmpty = ()=>{
+                        const inputs = Array.from(document.getElementsByClassName("login"))
+                        inputs.forEach((box)=>{
+                            if(box.value == "")
+                                box.style.border = "3px solid red"
+                            
+                            else
+                                box.style.border = "3px solid green"
+                            
+                        })
+                    }
+                </script>
+            </div>
+            
+    
+    			<!--Footer-->
+			<footer class="footer">
+				<p id="footy" >
+				All Rights Reserved, Copyright &copy; 2021
+				</p>
+			</footer>
+</body>
+</html>
