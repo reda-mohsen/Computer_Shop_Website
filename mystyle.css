@@ -1,0 +1,214 @@
+body{
+    border: 1px solid navy;
+    min-height: 80%;
+}
+#headerid{
+    font-size:xx-large;
+    font-family:Tahoma;
+    color:white;
+}
+.reg {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    }
+a   {
+    color:black;
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+    }
+a:hover{
+    color:green;
+    }
+div.header{
+    display: table;
+    border: 2px solid blue;
+    background-color: navy;
+    width:100%;
+    line-height: 60px;
+    
+    }
+div.col1{
+    display: table-cell;
+    width:50%;
+    padding: 10px;
+    }
+div.col2{
+    display: table-cell;
+    width:50%;
+    text-align: right;
+    padding: 10px;
+    }
+
+#nav{
+    display: table;
+    background-color: lightblue;
+    width: 80%;
+    margin: auto;
+    line-height: 60px;
+    border: 1px solid navy;
+    
+}
+.home{
+    display: table-cell;
+    color: black;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.catalog{
+    display: table-cell;
+    color: black;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hiw{
+    display: table-cell;
+    color: black;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abtus{
+    display: table-cell;
+    color: black;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cart{
+    display: table-cell;
+    color: black;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sliderid{
+    margin-top: 20px;
+    width:fit-content;
+    margin:auto;
+    position:relative;
+}
+#prev{
+    position:absolute;
+    bottom:0%;
+    left: 0%;
+    top: 35%;
+    border-radius: 25px;
+    color: black;
+}
+#next{
+    position:absolute;
+    bottom:0%;
+    right:0%;
+    top: 35%;
+    border-radius: 25px;
+    color: black;
+}
+
+
+#mydot{
+
+    text-align: center;
+}
+
+
+#lptitle{
+    margin-left: 10px;
+color: navy;
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.lastproducts{
+    border: 4px solid navy ;
+    width : 80%;
+    margin: auto;
+    padding:10px;
+}
+.row{
+    display:inline-block;
+    max-width: 30%;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.row h4,h3{
+    text-align: center;
+} 
+
+.row img{
+    margin-inline-start: 22%;
+    max-width: 250px;
+}
+#img1{
+    margin-inline-start: 14%;
+}
+
+
+button {
+    background: none;
+    height: 140px;
+    width: 80px;
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+button:hover{
+    background: center;
+        background-color: navy;
+        color: white;
+        
+}
+
+
+
+    
+.addcart{
+    background-color: navy;
+    color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 50%;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-inline-start: 22%;
+    }
+input > text {
+     height: 50px;
+     width: 150px;
+    } 
+
+
+.footer{
+     background-color: navy;
+    height: 60px;
+    }
+#footy{
+    color: white;
+    line-height: 60px;
+    text-align: right;
+    padding-right: 10px;
+    }
+    #buttonjava{
+        background: navy;
+        height: 30px;
+        width: 80px;
+        color: white;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+#formlogin{
+    margin: 20px 20px;
+}
